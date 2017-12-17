@@ -1,0 +1,148 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-05 15:45:57
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-05 17:38:57
+*/
+.safe-tips {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.icons-mobile {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background:  url(../images/icons/safe_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	vertical-align: middle;
+	margin-bottom: 2px;
+	margin-right: 5px;
+}
+/* 购物车 */
+.car-main {
+	margin-top: 15px;
+	background-color: #fff;
+}
+.car-main .car-t {
+	height: 35px;
+	line-height: 35px;
+	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.car-main .jd-zy {
+	position: relative;
+	text-indent: 15px;
+}
+.car-main .jd-zy:before {
+	width: 15px;
+	height: 10px;
+	-webkit-background-size: 120px;
+	background-size: 120px;
+	left: 0;
+}
+.car-main  .free {
+	margin-right: 10px;
+	color: red;
+}
+.car-items {
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+}
+.car-items .car-pic {
+	width: 80px;
+	height: 100px;
+	position: relative;
+}
+.car-items .car-dsc {
+	height: 100px;
+	box-sizing:border-box;
+	margin-left: 120px;
+	padding:10px 10px;
+} 
+.car-items .car-dsc h3 {
+	-webkit-line-clamp: 2;	
+	font-weight: 400;
+}
+.car-items .car-con {
+	margin-top: 15px;
+}
+.car-con .btns-wrap {
+	width: 117px;
+	border: 1px solid #ccc;
+	height: 28px;
+	font-size: 0;
+}
+.car-con .btns-wrap span {
+	width: 33.333%;
+	display: inline-block;
+	font-size: 12px;
+	height: 100%;
+	text-align: center;
+	line-height: 28px;
+}
+.car-con .btns-wrap span:nth-child(2) input {
+	width: 100%;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+.car-con .del-t {
+	width: 20px;
+	height: 5px;
+	background:  url(../images/icons/delete_up.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin: 2px auto 0;
+}
+.car-con .del-b {
+	width: 18px;
+	height: 18px;
+	background:  url(../images/icons/delete_down.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin: -1px auto;
+}
+
+@keyframes myBounceInDown {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, -3000px, 0);
+    transform: translate3d(-50%, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%, -30%, 0);
+    transform: translate3d(-50%, -30%, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-50%, -60%, 0);
+    transform: translate3d(-50%, -60%, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-50%, -45%, 0);
+    transform: translate3d(-50%, -45%, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
+
+.myBounceInDown {
+  -webkit-animation-name: myBounceInDown;
+  animation-name: myBounceInDown;
+}
